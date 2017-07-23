@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.omjee.quizapp.quizes">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/welcome_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WELCOME"
+            style="@style/TextView_styling"
+            android:textSize="25sp"
+            android:textAllCaps="true"
+            android:textColor="#004D40"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            style="@style/TextView_styling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jetBrains" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/jetBrains_true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Integrated Development Environment (IDE's)" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="HTML Webpages" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Editing Software" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Operating Systems" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextView_styling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/google" />
+
+        <EditText
+            android:id="@+id/google_founderTrue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Enter your ans. here" />
+
+        <TextView
+            style="@style/TextView_styling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/java_symbol" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/python" />
+
+        <EditText
+            android:id="@+id/java_symbolTrue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Enter your ans. here" />
+
+        <TextView
+            style="@style/TextView_styling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/os_support" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Windows" />
+
+            <RadioButton
+                android:id="@+id/os_true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="IOS" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Android" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Linux" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextView_styling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/virus" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text=" Vital Information Resources Under Suspect. " />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text=" Very Information Resources Under Seize." />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text=" Vital Information Random Under Seize. " />
+
+            <RadioButton
+                android:id="@+id/virus_true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text=" Vital Information Resources Under Seize. " />
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextView_styling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/version_windows" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Windows 10" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Windows xp" />
+
+            <RadioButton
+                android:id="@+id/windows_true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Windows 77" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Windows 8" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextView_styling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/smps" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Switched-Module Power Supply)" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Switched-Mode Power Sustained" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Switched-Master Power Supply" />
+
+            <RadioButton
+                android:id="@+id/smps_true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Switched-Mode Power Supply" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextView_styling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ram_support" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="YES" />
+
+            <RadioButton
+                android:id="@+id/ram_true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="NO" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextView_styling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gradle" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Compiler" />
+
+            <RadioButton
+                android:id="@+id/gradle_true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Interpreter" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Scripts" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Integrated development environment" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextView_styling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/server" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text=" HyperText Transfer Protocol Server" />
+
+            <RadioButton
+                android:id="@+id/server_true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text=" HyperText Transfer Protocol Secure" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text=" HyperText Track Protocol Secure" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text=" HeapedText Transfer Protocol Secure" />
+        </RadioGroup>
+
+        <Button
+            android:onClick="checks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_submit"
+            android:layout_marginTop="10dp"
+            android:background="#EF6C00"/>
+
+    </LinearLayout>
+
+</ScrollView>

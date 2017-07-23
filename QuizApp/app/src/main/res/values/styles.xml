@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FF8F00</item>
+        <item name="colorPrimaryDark">#EF6C00</item>
+        <item name="colorAccent">#FFAB00</item>
+        <item name="android:navigationBarColor">#FF6F00</item>
+    </style>
+
+    <!--The styles to be added to the editText of intro page-->
+    <style name="Edit_text_styling">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:textColor">#33691E</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!--The Styles for the Text Views In quiz class-->
+    <style name="TextView_styling">
+    <item name="android:fontFamily">sans-serif</item>
+    <item name="android:layout_marginTop">10dp</item>
+    <item name="android:layout_marginStart">8dp</item>
+    <item name="android:textColor">#33691E</item>
+    <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>

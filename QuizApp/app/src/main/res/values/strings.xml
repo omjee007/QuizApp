@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="hint_name">Please enter your name</string>
+    <string name="hint_age">Please enter the Age</string>
+    <string name="hint_qualifications">Please enter your latest Qualification</string>
+    <string name="yes_Continue">Yes,Continue to quiz</string>
+    <string name="checkBox_field">Check this Box after reading the instructions</string>
+    <string name="instructions">You will be provided with 10 questions about it you need to answer them all and at last you will be provided with the score on the basis of your answers.</string>
+    <string name="jetBrains">1) What does the jetbrains develops ?</string>
+    <string name="google">2) Who is the founder Of google</string>
+    <string name="java_symbol">3) This is the Symbol of ________ ?</string>
+    <string name="os_support">4) Which os does the Apple support</string>
+    <string name="virus">5) Full Form of VIRUS</string>
+    <string name="version_windows">6) Which Version is not part of Windows ?</string>
+    <string name="smps">7) Full form of SMPS</string>
+    <string name="ram_support">8) Can a computer motherboard Support DDR3 and DDR4 simultaneously</string>
+    <string name="gradle">9) What is a gradle in Android Studio</string>
+    <string name="server">10) What is the Full Form of Https in Web</string>
+    <string name="button_submit">Yes, Submit my quiz</string>
+</resources>
